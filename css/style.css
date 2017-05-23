@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: capitalize;
+  font-family: 'Book Antiqua',serif;
+  font-style: italic; }
+
+body {
+  font-size: 14px;
+  color: #000000; }
+
+.container {
+  width: 1140px;
+  margin: 0 auto; }
+
+.clearfix {
+  clear: both; }
+
+.wrapper-header {
+  margin: 25px 0 10px;
+  height: 100px; }
+  .wrapper-header .logo {
+    text-align: center;
+    line-height: 20px; }
+  .wrapper-header .login {
+    height: 91px;
+    float: right;
+    line-height: 20px;
+    margin-top: -50px; }
+    .wrapper-header .login .list {
+      margin: 0;
+      padding: 0; }
+      .wrapper-header .login .list .list-item {
+        display: inline-block;
+        padding-left: 20px; }
+        .wrapper-header .login .list .list-item img {
+          padding-right: 15px;
+          display: inline-block;
+          vertical-align: bottom; }
+        .wrapper-header .login .list .list-item a {
+          text-transform: uppercase;
+          font-size: 15px;
+          text-decoration: none;
+          color: #404041; }
+  .wrapper-header .form-search {
+    margin-top: 10px; }
+    .wrapper-header .form-search .input {
+      width: 185px;
+      height: 30px; }
+    .wrapper-header .form-search .select {
+      width: 185px;
+      height: 36px;
+      background-color: transparent;
+      padding-left: 5px;
+      margin-left: 10px; }
+
+.wrapper-nav {
+  margin-bottom: 25px; }
+  .wrapper-nav .menu {
+    display: flex;
+    justify-content: space-between; }
+    .wrapper-nav .menu .menu-item {
+      display: inline-block;
+      padding: 3px; }
+      .wrapper-nav .menu .menu-item a {
+        text-transform: uppercase;
+        font-size: 18px;
+        text-decoration: none;
+        color: #404041; }
+
+.title-colect {
+  text-align: center;
+  font-size: 56px;
+  letter-spacing: 4px;
+  line-height: 56px;
+  padding: 40px 0;
+  font-style: italic; }
+
+.gallery {
+  width: 100%; }
+  .gallery .gallery-item:nth-child(1),
+  .gallery .gallery-item:nth-child(2) {
+    float: left;
+    width: 358px;
+    height: 382px;
+    margin-right: 33px; }
+  .gallery .gallery-item:nth-child(3) {
+    float: left;
+    width: 358px;
+    height: 382px; }
+
+.keeping {
+  text-align: center;
+  font-size: 36px;
+  margin: 40px 0;
+  padding: 25px 0;
+  background-color: #392f2e;
+  color: #ffffff; }
+
+.newspasstion img {
+  width: 1140px; }
+
+.wraper-desc {
+  margin-top: 30px; }
+  .wraper-desc .wrap-left {
+    float: left;
+    width: 435px;
+    word-break: break-all;
+    margin-left: 30px; }
+    .wraper-desc .wrap-left p {
+      line-height: 26px; }
+  .wraper-desc .wrap-right {
+    float: right; }
+    .wraper-desc .wrap-right .ds {
+      margin: 0;
+      padding: 0;
+      margin-right: 70px; }
+      .wraper-desc .wrap-right .ds .ds-item {
+        display: inline-block;
+        padding-right: 5px; }
+        .wraper-desc .wrap-right .ds .ds-item img {
+          width: 224px;
+          height: 224px; }
+    .wraper-desc .wrap-right .follow {
+      margin: 10px 88px; }
+      .wraper-desc .wrap-right .follow img {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5px; }
+
+.wraper-footer {
+  margin: 76px 0 45px; }
+  .wraper-footer .stay {
+    float: left;
+    margin-left: 30px; }
+    .wraper-footer .stay .title-bee {
+      margin-bottom: 80px; }
+    .wraper-footer .stay .inputf {
+      width: 352px;
+      height: 30px;
+      padding: 0 10px; }
+    .wraper-footer .stay .social {
+      display: block;
+      text-align: center;
+      margin-top: 10px; }
+      .wraper-footer .stay .social .social-item {
+        display: inline-block; }
+    .wraper-footer .stay .feel {
+      font-size: 13px;
+      margin-top: 5px; }
+  .wraper-footer .about {
+    float: right; }
+    .wraper-footer .about .general {
+      width: 100%; }
+      .wraper-footer .about .general .general-item {
+        float: left;
+        width: 230px;
+        height: 130px; }
+        .wraper-footer .about .general .general-item .us {
+          margin: 0;
+          padding: 0; }
+          .wraper-footer .about .general .general-item .us .us-item a {
+            text-decoration: none;
+            color: #404041;
+            line-height: 20px; }
+        .wraper-footer .about .general .general-item .title {
+          margin-bottom: 46px; }
+        .wraper-footer .about .general .general-item .title-2 {
+          margin-bottom: 30px; }
+
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address,
+del, em, img, small, strong, b, u, i, hr,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+button,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  word-wrap: break-word; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: inherit;
+  font-weight: inherit;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figure, footer, header, menu, nav, section, summary {
+  display: block; }
+
+/*# sourceMappingURL=style.css.map */
