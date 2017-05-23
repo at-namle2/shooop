@@ -4,15 +4,13 @@
 }
 h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
-  font-family: 'Book Antiqua',serif;
+  font-family: Verdana,Geneva,sans-serif;
   font-style: italic;
 }
-
 body {
   font-size: 14px;
   color: map-get($color, black);
 }
-
 .container {
   width: 1140px;
   margin: 0 auto;

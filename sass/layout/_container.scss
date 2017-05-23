@@ -10,15 +10,11 @@
   width: 100%;
   .gallery-item:nth-child(1),
   .gallery-item:nth-child(2) {
-    float: left;
-    width: 358px;
-    height: 382px;
+    @extend %gallery-item;
     margin-right: 33px;
   }
   .gallery-item:nth-child(3) {
-    float: left;
-    width: 358px;
-    height: 382px;
+    @extend %gallery-item;
   }
 }
 .keeping {
@@ -54,10 +50,40 @@
       .ds-item {
         display: inline-block;
         padding-right: 5px;
+        position: relative;
         img {
           width: 224px;
           height: 224px;
+          transition: all 0.3s;
         }
+        .overlay {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: map-get($color, orange_2);
+          overflow: hidden;
+          width: 98%;
+          height: 0;
+          transition: .5s ease;
+          .text {
+            white-space: nowrap;
+            color: white;
+            font-size: 18px;
+            position: absolute;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            line-height: 28px;
+            span {
+             padding-left: 30px;
+            }
+          }
+        }
+      }
+      .ds-item:hover .overlay {
+        height: 30%;
       }
     }
     .follow {
