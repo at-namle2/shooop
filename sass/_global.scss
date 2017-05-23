@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-size: 14px;
   color: map-get($color, black);
+  font-family: Verdana, Geneva, sans-serif;
 }
 .container {
   width: 1140px;
