@@ -5,6 +5,7 @@
   line-height: 56px;
   padding: 40px 0;
   font-style: italic;
+  font-family: "Book_antiqua_Italic";
 }
 .gallery {
   width: 100%;
@@ -24,6 +25,7 @@
   padding: 25px 0;
   background-color: map-get($color, gray_2);
   color: map-get($color, white);
+  font-family: "Vollkorn-Italic";
 }
 .newspasstion {
   img {
@@ -38,7 +40,8 @@
     word-break: break-all;
     margin-left: 30px;
     p {
-      line-height: 26px;
+      line-height: 22px;
+      font-size: 15px;
     }
   }
   .wrap-right {
@@ -87,7 +90,7 @@
       }
     }
     .follow {
-      margin: 10px 88px;
+      margin: 10px 78px;
       img {
         display: inline-block;
         vertical-align: middle;

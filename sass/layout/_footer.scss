@@ -32,7 +32,7 @@
       width: 100%;
       .general-item {
         float: left;
-        width: 230px;
+        width: 208px;
         height: 130px;
         .us {
           margin: 0;
@@ -42,6 +42,7 @@
               text-decoration: none;
               color: map-get($color, gray);
               line-height: 20px;
+              font-size: 12px;
               &:hover {
                 color: map-get($color, orange_2);
                 transition: all 0.5s ease;

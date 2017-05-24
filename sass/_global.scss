@@ -8,9 +8,9 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
 }
 body {
+  font-family: "verdana";
   font-size: 14px;
-  color: map-get($color, black);
-  font-family: Verdana, Geneva, sans-serif;
+  color:map-get($color, black);
 }
 .container {
   width: 1140px;
@@ -18,4 +18,16 @@ body {
 }
 .clearfix {
   clear: both;
+}
+@font-face {
+  font-family: "verdana";
+  src: url('../font/Verdana.ttf');
+}
+@font-face {
+  font-family: "Book_antiqua_Italic";
+  src: url('../font/Book_antiqua_Italic.ttf');
+}
+@font-face {
+  font-family: "Vollkorn-Italic";
+  src: url('../font/Vollkorn-Italic.ttf');
 }
